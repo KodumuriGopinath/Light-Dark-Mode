@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+}
+.main-heading {
+  color: #ffffff;
+  font-family: roboto;
+}
+.button {
+  padding: 10px;
+  font-family: roboto;
+  cursor: pointer;
+}
+.light-mode {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+}
+.dark-mode {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  border: 1px solid #000000;
+}
+.light-heading {
+  color: #ffffff;
+  font-family: roboto;
+  text-align: center;
+}
+.dark-heading {
+  color: #000000;
+  font-family: roboto;
+  text-align: center;
+}
